@@ -1,0 +1,21 @@
+RGB Panel Direct
+
+The ENE RGB, NZXT Hue 2 and IT8297 RGB Fusion 2 protocol sequences are
+adapted from OpenRGB 1.1, commit 8e16de27858cf2be6af54a33ce003df74cb9fd3e.
+The application source is provided under the GNU GPL version 2 or later.
+The licence is embedded as RgbPanel.GPL-2.0.txt.
+
+OpenRGB project and original driver code:
+https://github.com/CalcProgrammer1/OpenRGB/tree/8e16de27858cf2be6af54a33ce003df74cb9fd3e
+
+The SmbusPIIX4 module bundled by OpenRGB is embedded byte-for-byte. The
+installed PawnIO driver is accessed through its published device ABI.
+PawnIO and PawnIO Modules sources:
+https://github.com/namazso/PawnIO
+https://github.com/namazso/PawnIO.Modules
+
+The byte-identical signed module is also available in the PawnIO Modules
+0.2.10 release. The LGPL-2.1-or-later corresponding source and license are
+included as PawnIO-Modules-0.2.10-source.zip.
+Source revision: c683032770575d7705d1149f9d7fa7fd381766fc
+https://github.com/namazso/PawnIO.Modules/tree/c683032770575d7705d1149f9d7fa7fd381766fc
