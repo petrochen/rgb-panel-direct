@@ -1,14 +1,14 @@
-# RGB Panel Direct
+# RGB
 
-<img src="icon-preview.png" width="64" alt="RGB Panel Direct icon with three colored light bars">
+<img src="icon-preview.png" width="64" alt="RGB icon with three colored light bars">
 
 A small Windows utility for controlling the RGB lighting on a Gigabyte X570 I AORUS PRO WIFI build. It drives the supported USB and SMBus lighting controllers from a single executable. OpenRGB does not have to be installed or running.
 
-![The RGB Panel dashboard with the Gradient Wave effect selected](preview.png)
+![The RGB dashboard with the Gradient Wave effect selected](preview.png)
 
 ## Download
 
-Get `RGB-Panel-Direct.exe` from [Releases](https://github.com/petrochen/rgb-panel-direct/releases). Run it on Windows 10 or 11 x64 and approve the Windows administrator prompt. The G.Skill memory modules require the [PawnIO driver](https://pawnio.eu/).
+Get `RGB.exe` from [Releases](https://github.com/petrochen/rgb-panel-direct/releases). Run it on Windows 10 or 11 x64 and approve the Windows administrator prompt. The G.Skill memory modules require the [PawnIO driver](https://pawnio.eu/).
 
 Select one or more devices, pick an effect, and click **Apply effect**. Devices can run different effects at the same time. The preview updates while you adjust the colors, brightness, cycle length, or direction. Keep the panel open while an animation is running.
 
@@ -32,7 +32,7 @@ From a PowerShell prompt on Windows x64, run:
 .\DirectBuild.ps1
 ```
 
-The build uses the Windows .NET Framework C# compiler and embeds the signed `SmbusPIIX4.bin` module. The output is `RGB Panel Direct.exe`.
+The build uses the Windows .NET Framework C# compiler and embeds the signed `SmbusPIIX4.bin` module. The output is `RGB.exe`.
 
 Run `.\New-RgbPanelIcon.ps1` to regenerate the Windows icon.
 

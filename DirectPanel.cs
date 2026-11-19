@@ -21,7 +21,7 @@ namespace RgbPanel
             {
                 if (!first)
                 {
-                    MessageBox.Show("RGB Panel is already open.", "RGB Panel");
+                    MessageBox.Show("RGB is already open.", "RGB");
                     return;
                 }
                 try
@@ -77,7 +77,7 @@ namespace RgbPanel
         public DirectPanel(Func<LightingHardware> openHardware)
         {
             this.openHardware = openHardware;
-            Text = "RGB Panel";
+            Text = "RGB";
             BackColor = Palette.Background;
             ForeColor = Palette.Ink;
             Font = Palette.Body;

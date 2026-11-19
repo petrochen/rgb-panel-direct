@@ -1,4 +1,4 @@
-RGB Panel Direct
+RGB
 
 The ENE RGB, NZXT Hue 2 and IT8297 RGB Fusion 2 protocol sequences are
 adapted from OpenRGB 1.1, commit 8e16de27858cf2be6af54a33ce003df74cb9fd3e.

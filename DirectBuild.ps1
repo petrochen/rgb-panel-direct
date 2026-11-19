@@ -1,5 +1,5 @@
 param(
-    [string]$Output = (Join-Path $PSScriptRoot 'RGB Panel Direct.exe'),
+    [string]$Output = (Join-Path $PSScriptRoot 'RGB.exe'),
     [string]$Module = (Join-Path $PSScriptRoot 'SmbusPIIX4.bin'),
     [string]$License = (Join-Path $PSScriptRoot 'LICENSE'),
     [string]$EmbeddedSource
