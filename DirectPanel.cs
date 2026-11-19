@@ -28,7 +28,16 @@ namespace RgbPanel
                 {
                     Application.EnableVisualStyles();
                     Application.SetCompatibleTextRenderingDefault(false);
-                    Application.Run(new DirectPanel(LightingHardware.Open));
+                    using (Icon icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath))
+                    using (var panel = new DirectPanel(LightingHardware.Open))
+                    {
+                        if (icon != null)
+                        {
+                            panel.Icon = icon;
+                            panel.ShowIcon = true;
+                        }
+                        Application.Run(panel);
+                    }
                 }
                 finally { instance.ReleaseMutex(); }
             }

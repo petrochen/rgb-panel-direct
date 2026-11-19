@@ -1,5 +1,7 @@
 # RGB Panel Direct
 
+<img src="icon-preview.png" width="64" alt="RGB Panel Direct icon with three colored light bars">
+
 A small Windows utility for controlling the RGB lighting on a Gigabyte X570 I AORUS PRO WIFI build. It drives the supported USB and SMBus lighting controllers from a single executable. OpenRGB does not have to be installed or running.
 
 ![The RGB Panel dashboard with the Gradient Wave effect selected](preview.png)
@@ -31,6 +33,8 @@ From a PowerShell prompt on Windows x64, run:
 ```
 
 The build uses the Windows .NET Framework C# compiler and embeds the signed `SmbusPIIX4.bin` module. The output is `RGB Panel Direct.exe`.
+
+Run `.\New-RgbPanelIcon.ps1` to regenerate the Windows icon.
 
 ## License
 
